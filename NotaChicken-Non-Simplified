@@ -1,5 +1,7 @@
 #This is an example of the "Not a chicken" non-simplified gesture.
 
+#THIS GESTURE WILL NOT WORK FOR YOU UNLESS YOUR SERVO SERVICES MATCH THE SAME NAMES AS MINE! That or your change the names of my setup to match yours. :9 
+
 #NOTE .setSpeed(-1) which is used in this gesture is now deprecated. If you are using myrobotlab-1.1.1393 or above, please use ".setMaxSpeed()" as it is the newest setting to return servos to their full speed / remove speed limits. 
 
 ###############################################################################
@@ -95,7 +97,7 @@ LeftEyelidUpper.moveTo(30)
 LeftEyelidLower.moveTo(30)
 RightEyelidUpper.moveTo(30)
 RightEyelidLower.moveTo(30)
-#mouth.audioFile.play('C:\MRL\CustomMovement\Audio\ThatIsNOTaChicken.mp3')  #This line will pull an error if you don't have a matching soundfile "ThatIsNOTaChicken.mp3" in a folder you have it directed it to. I have added a # at the beginning for now to remove this line. 
+mouth.audioFile.play('C:\MRL\CustomMovement\Audio\ThatIsNOTaChicken.mp3')  #This line will pull an error if you don't have a matching soundfile "ThatIsNOTaChicken.mp3" in a folder you have it directed it to.
 sleep(0.7)
 
 LeftArmBicep.moveTo(130) #BEGINNING OF LEFT ARM MOVEMENT
