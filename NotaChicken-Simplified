@@ -1,5 +1,7 @@
 #This is an example of the "Not a chicken" simplified gesture.
 
+#THIS GESTURE WILL NOT WORK FOR YOU UNLESS YOUR SERVO SERVICES MATCH THE SAME NAMES AS MINE! That or your change the names of my setup to match yours. :9 
+
 ###############################################################################
 sleep(2) #2second buffer so that the gesture starts 2 seconds after you execute it. Can be removed. 
 
