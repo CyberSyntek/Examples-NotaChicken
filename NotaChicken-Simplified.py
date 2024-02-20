@@ -28,7 +28,7 @@ sleep(0.5)
 RightArmBicep.moveTo(130)
 sleep(1.8)
 
-########END OF NOT A CHICKEN / RETURN TO REST / RESET SPEEDS#############
+########END OF NOT A CHICKEN / RETURN TO REST
 RightArmBicep.moveTo(5)
 RightArmRotate.moveTo(90)
 RightArmShoulder.moveTo(30)
